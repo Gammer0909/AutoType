@@ -18,6 +18,23 @@ def main():
     # at.Goto(x=175, y=397)
     # at.Click(x=175, y=397)
 
+    
+    # Here's a short version on how to get your coordinates:
+    # 1. Make a new file (not in src). Call it whatever you want, for this walkthrough, I'll call it "coordinates.py"
+    # 2. In that file, put this code:
+    # import pyautogui
+    # while 1:
+    #     try:
+    #         x, y = pyautogui.position()
+    #         positionStr = "X: " + str(x).rjust(4) + " Y: " + str(y).rjust(4)
+    #         print(positionStr, end="")
+    #         print("\b" * len(positionStr), end="", flush=True)
+    #     except KeyboardInterrupt:
+    #         print("\nDone.")
+    # 3. Run the file. It will print out the coordinates of your mouse. On windows, press Control+C to stop the program, on a Mac, RIP.
+    # 4. Copy the coordinates that you want to click, and paste them into the Goto and Click functions above.
+
+
     # This just makes the program wait, so it doesn't start typing before you have a chance to click on the text box.
     time.sleep(5) # Change this number as you see necessary.
 
