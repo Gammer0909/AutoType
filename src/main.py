@@ -18,7 +18,7 @@ def main():
     # at.Goto(x=175, y=397)
     # at.Click(x=175, y=397)
 
-    
+
     # Here's a short version on how to get your coordinates:
     # 1. Make a new file (not in src). Call it whatever you want, for this walkthrough, I'll call it "coordinates.py"
     # 2. In that file, put this code:
@@ -46,6 +46,7 @@ def main():
     raw.write(response)
     raw.close()
     responseArray = mkta.markdown_to_array(response)
+    # If we just had a typo or pause, we don't want to do another one right after.
     justDidSomething = False
     for segment in responseArray:
         typoOrPause = random.randint(0, 10)
