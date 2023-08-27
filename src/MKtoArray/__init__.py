@@ -28,3 +28,4 @@ def markdown_to_array(text):
             segments.append(word)
 
     return segments
+
