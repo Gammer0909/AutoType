@@ -20,7 +20,7 @@ example = "This is a **bold** word, and this is an *italic* word, and this is an
 segmented_example = markdown_to_array(example)
 print(segmented_example)
 # Outputs
-# ['This', ' ', 'is', ' ', 'a', ' ', 'BOLD_START', 'bold', 'BOLD_END', ' ', 'word,', ' ', 'and', ' ', 'this', ' ', 'is', ' ', 'an', ' ', 'ITALIC_START', 'italic', 'ITALIC_END', ' ', 'word,', ' ', 'and', ' ', 'this', ' ', 'is', ' ', 'an', ' ', 'UNDERLING_START', 'underlined', 'UNDERLINE_END', ' ', 'word.']
+# ['This', ' ', 'is', ' ', 'a', ' ', 'BOLD_START', 'bold', 'BOLD_END', ' ', 'word,', ' ', 'and', ' ', 'this', ' ', 'is', ' ', 'an', ' ', 'ITALIC_START', 'italic', 'ITALIC_END', ' ', 'word,', ' ', 'and', ' ', 'this', ' ', 'is', ' ', 'an', ' ', 'UNDERLINE_START', 'underlined', 'UNDERLINE_END', ' ', 'word.']
 ```
 
 The list of words are then looped through, and the script will type each word, with a delay of 0.1 seconds between each word.

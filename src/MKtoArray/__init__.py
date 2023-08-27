@@ -20,7 +20,7 @@ def markdown_to_array(text):
             segments.append("ITALIC_END")
         elif re.match(r'__.*__$', word):
             # Underline formatting, remove the Markdown markers
-            segments.append("UNDERLING_START")
+            segments.append("UNDERLINE_START")
             segments.append(word.strip('__'))
             segments.append("UNDERLINE_END")
         else:
