@@ -41,6 +41,10 @@ Finally, run the script with `python src/main.py`
 
 Once you've run the script, you will have 5 seconds to click over to whatever you want to type in, eg. a Google Doc, Notepad file, etc.
 
+### NOTE: 
+
+in src/main.py, the important stuff at the top is commented, read the comments for further instructions.
+
 ## Contributing
 
 If you wish to contribute, please make a PR with your changes. If you have any questions, feel free to open an issue.
