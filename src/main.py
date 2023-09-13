@@ -42,7 +42,9 @@ def main():
     # Note, however, this does cost money. Alternatively, you can just copy paste a response from ChatGPT.
     # To do that instead, comment out the line below, and uncomment the line below that.
     response = res.GetResponse("Write a short paragraph about the TV show \"The Office\".")
-    # response = "ChatGPT copied response here."
+    # response = "ChatGPT copied response here." 
+    # -- OR --
+    # response = open("response.txt", "r")
     raw.write(response)
     raw.close()
     responseArray = mkta.markdown_to_array(response)
